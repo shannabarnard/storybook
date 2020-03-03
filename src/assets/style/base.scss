@@ -1,0 +1,67 @@
+@import "./variables";
+
+html {
+  @apply bg-white antialiased;
+
+  font-size: 50px;
+
+  @screen md {
+    font-size: 16px;
+  }
+}
+body {
+  @apply text-gray-800;
+  background: var(--body-background);
+  font-family: theme('fontFamily.body');
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  @apply font-medium mt-1 mb-3;
+  color: theme('colors.primary.700');
+  font-family: theme('fontFamily.display');
+}
+h1,
+.h1 {
+  @apply text-5xl;
+}
+h2,
+.h2 {
+  @apply text-4xl;
+}
+h3,
+.h3 {
+  @apply text-3xl;
+}
+h4,
+.h4 {
+  @apply text-2xl;
+}
+h5,
+.h5 {
+  @apply text-xl;
+}
+h6,
+.h6 {
+  @apply text-lg;
+}
+a {
+  @apply underline;
+  color: theme('colors.primary.700');
+}
+p {
+  @apply mb-3 leading-relaxed;
+}
+strong {
+  @apply font-display font-semibold;
+}
+i {
+  @apply font-light;
+}
+code {
+  @apply rounded-sm px-1 bg-gray-200 text-purple-800 text-sm;
+}

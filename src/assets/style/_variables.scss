@@ -1,0 +1,27 @@
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Varela+Round&display=swap');
+
+// default HTX colours
+:root {
+    // Color Pallet
+    --color-transparent: transparent;
+    --color-black: #22292f;
+    --color-grey: #b8c2cc;
+    --color-white: #fff;
+    --color-primary: #1f4287;
+    --color-secondary: #21e6c1;
+
+    // Base Variables
+    --body-background: var(--color-white);
+    --links-color: var(--color-secondary);
+
+    // Navbar Variables
+    --navbar-background: var(--color-primary);
+    --navbar-links-color: var(--color-white);
+
+    // Banner Variables
+    --banner-background: url(https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&h=500);
+
+    //CabForm Variables
+    --cabform-background-color: var(--color-transparent);
+}
